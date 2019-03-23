@@ -1,0 +1,146 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    overflow:hidden;
+}
+
+header /* Photo Background */
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('image1.jpg');
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+}
+
+.main-nav /* Thesei menu */
+{
+    list-style:none;
+    margin-top:3%;
+    margin-right:4%;
+    float:right;
+}
+
+.main-nav li /* Na mpoun se koutakia */
+{
+    display:inline-block;
+}
+
+.main-nav li a /* Parametroi gia tis lexeis tou menu */
+{
+    color:white;
+    text-decoration:none;
+    padding:5px 20px;
+    font-family:"Roboto", sans-serif;
+    font-size:15px;
+}
+
+.main-nav li.active a /* Na emfanizete to energo keli se aspro kouti */
+{
+    border: 1px solid white;
+}
+
+.main-nav li a:hover /* Na emfanizete to dialegmeno keli se aspro kouti */
+{
+    border: 1px solid white;
+}
+
+
+.mainText /* Thesei tou keimenou */
+{
+    position:absolute;
+    margin-left:25%;
+    margin-top:8%;
+    margin-right:25%;
+    margin-bottom:8%;
+    float:left;
+}
+
+.mainText > h1 /* Parametroi gia ta H1 */
+{
+    color:white;
+    text-transform:uppercase;
+    font-size:350%;
+    text-align:center;
+    margin-top:10%;
+}
+
+/* Style the links inside the sidenav */
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -110px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+    margin-top:6%;
+}
+
+#mySidenav a:hover
+{
+    left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#atei
+{
+    top: 20px;
+    background-color: #888888;
+}
+
+#tmima
+{
+    top: 80px;
+    background-color: #888860;
+}
+
+.social /* Thesi ton social buttons */
+{
+    list-style:none;
+    margin-top:2%;
+    margin-left:4%;
+    float:left;
+}
+
+.emails /* Thesei tou keimenou epikoinwnias */
+{
+    position:absolute;
+    margin-left:35%;
+    margin-top:10%;
+    margin-right:25%;
+    margin-bottom:8%;
+    float:inherit;
+}
+
+.emails > h1 /* Parametroi gia ta H1 */
+{
+    color:white;
+    font-size:200%;
+    text-align:center;
+    margin-top:10%;
+}
+
+.bio /* Thesei tou keimenou biografikou */
+{
+    position:absolute;
+    margin-left:25%;
+    margin-top:10%;
+    margin-right:25%;
+    margin-bottom:8%;
+    float:inherit;
+}
+
+.bio > h1 /* Parametroi gia ta H1 */
+{
+    color:white;
+    font-size:180%;
+    text-align:center;
+    margin-top:10%;
+}
